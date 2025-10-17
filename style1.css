@@ -1,0 +1,62 @@
+.h1{
+    color: black;
+    background-color: blue;
+    text-align: left;
+    display: inline-block;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: cornflowerblue;
+    display: flex;
+    gap: 10px;
+}
+
+.kkk{
+    color:black;
+    background-color: aqua;
+    text-align: center;
+}
+
+.info_all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    color: red;
+    background-color: darkred;
+    margin: 30px;
+    width: 33%;
+}
+
+.skins{
+    color: black;
+    background-color: darkorange;
+    margin: 30px;
+    width: 33%;
+}
+
+.merch{
+    color: green;
+    background-color: greenyellow;
+    text-align: right;
+    margin: 30px;
+    width: 33%;
+}
+
+footer p{
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 70px;
+}
